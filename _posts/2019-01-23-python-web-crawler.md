@@ -2,8 +2,8 @@
 layout: post
 title: "Python Web Crawler"
 date: 2019-01-23
-excerpt: "Python ≈¿≥Ê"
-tags: [Python, Web Crawler, ≈¿≥Ê]
+excerpt: ""
+tags: [Python, Web Crawler]
 comments: true
 ---
 
