@@ -1,15 +1,27 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
-date: 2012-05-22
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+title: "Python Web Crawler"
+date: 2019-01-23
+excerpt: "Python 爬虫"
+tags: [Python, Web Crawler, 爬虫]
 comments: true
 ---
 
-Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+Chrome安装Save As MHT插件(https://chrome.google.com/webstore/detail/save-as-mht/hfmodljjaibbdndlikgagimhhodmobkc?hl=zh-CN&utm_source=chrome-ntp-launcher)
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+将要爬取的页面保存为MHT，用Chrome打开，查看源代码，复制源码，保存为HTML
+
+{% highlight css %}
+import re
+from bs4 import BeautifulSoup as bs
+
+with open('helloworld.html', encoding='utf-8') as f:
+    helloworld = f.read()
+soup = bs(helloworld, 'html.parser')
+soup_all = soup.find_all('p', {'class':'~~~'})
+for i in soup_all:
+	print(i.text)
+{% endhighlight %}
 
 ## Cupidatat 90's lo-fi authentic try-hard
 
