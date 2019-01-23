@@ -7,9 +7,9 @@ tags: [Python, Web Crawler]
 comments: true
 ---
 
-Chrome安装Save As MHT插件(https://chrome.google.com/webstore/detail/save-as-mht/hfmodljjaibbdndlikgagimhhodmobkc?hl=zh-CN&utm_source=chrome-ntp-launcher)
+Chrome瀹夎Save As MHT鎻掍欢(https://chrome.google.com/webstore/detail/save-as-mht/hfmodljjaibbdndlikgagimhhodmobkc?hl=zh-CN&utm_source=chrome-ntp-launcher)
 
-将要爬取的页面保存为MHT，用Chrome打开，查看源代码，复制源码，保存为HTML
+灏嗚鐖彇鐨勯〉闈繚瀛樹负MHT锛岀敤Chrome鎵撳紑锛屾煡鐪嬫簮浠ｇ爜锛屽鍒舵簮鐮侊紝淇濆瓨涓篐TML
 
 {% highlight css %}
 import re
