@@ -3,7 +3,7 @@ layout: post
 title: "Python Web Crawler"
 date: 2019-01-23
 excerpt: ""
-project: true
+python: true
 tags: [Python, Web Crawler]
 comments: true
 ---
