@@ -1,6 +1,6 @@
 ---
 layout: python
-title: All Projects
+title: Python
 excerpt: "A List of Projects"
 comments: false
 ---
