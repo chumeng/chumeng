@@ -8,7 +8,7 @@ tags: [Python, Web Crawler]
 comments: true
 ---
 
-###方法1 手动保存网页，BeautifulSoup解析源码
+### 方法1 手动保存网页，BeautifulSoup解析源码
 
 1. Chrome安装[Save As MHT](https://chrome.google.com/webstore/detail/save-as-mht/hfmodljjaibbdndlikgagimhhodmobkc?hl=zh-CN&utm_source=chrome-ntp-launcher)插件
 
@@ -27,9 +27,9 @@ for i in soup_all:
     print(i.text)
 {% endhighlight %}
 
-###方法2 Selenium配合BeautifulSoup
+### 方法2 Selenium配合BeautifulSoup
 
-####准备工作
+#### 准备工作
 
 * 下载自己电脑对应chrome版本的chromedriver
 * 安装selenium包
