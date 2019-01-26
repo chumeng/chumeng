@@ -6,7 +6,7 @@
          url("../fonts/FiraSans/eot/FiraSans-Light.eot") format("embedded-opentype"),
          url("https://code.cdn.mozilla.net/fonts/woff/FiraSans-Light.woff") format("woff"),
          url("https://www.lastminute-buesum.de/styles/fonts/firasans/firasans-light-webfont.woff2") format("woff2"),
-         url("https://www.lastminute-buesum.de/styles/fonts/firasans/firasans-light-webfont.ttf") format("truetype");
+         url("https://code.cdn.mozilla.net/fonts/ttf/FiraSans-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
 }
@@ -30,7 +30,7 @@
          url("../fonts/FiraSans/eot/FiraSans-Regular.eot") format("embedded-opentype"),
          url("https://code.cdn.mozilla.net/fonts/woff/FiraSans-Regular.woff") format("woff"),
          url("https://www.lastminute-buesum.de/styles/fonts/firasans/firasans-regular-webfont.woff2") format("woff2"),
-         url("https://www.lastminute-buesum.de/styles/fonts/firasans/firasans-regular-webfont.ttf") format("truetype");
+         url("https://code.cdn.mozilla.net/fonts/ttf/FiraSans-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
@@ -75,10 +75,10 @@
     font-family: 'Fira Sans';
     src: url("../fonts/FiraSans/eot/FiraSans-Bold.eot");
     src: local("Fira Sans Bold"),
-         url("../fonts/FiraSans/eot/FiraSans-Bold.eot") format("embedded-opentype"),
+         url("https://code.cdn.mozilla.net/fonts/eot/FiraSans-Bold.eot") format("embedded-opentype"),
          url("https://code.cdn.mozilla.net/fonts/woff/FiraSans-Bold.woff") format("woff"),
          url("../fonts/FiraSans/woff2/FiraSans-Bold.woff2") format("woff2"),
-         url("../fonts/FiraSans/ttf/FiraSans-Bold.ttf") format("truetype");
+         url("https://code.cdn.mozilla.net/fonts/ttf/FiraSans-Bold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
