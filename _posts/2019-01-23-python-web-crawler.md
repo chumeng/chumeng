@@ -15,7 +15,7 @@ comments: true
 2. 将要爬取的页面保存为MHT，用Chrome打开，查看源代码，复制源码，保存为HTML
 
 3. 将HTML放到和代码同一文件夹，运行
-{% highlight css %}
+{% highlight python %}
 import re
 from bs4 import BeautifulSoup as bs
 
@@ -34,7 +34,7 @@ for i in soup_all:
 * 下载自己电脑对应chrome版本的chromedriver
 * 安装selenium包
 
-{% highlight css %}
+{% highlight python %}
 from selenium import webdriver
 import time
 from bs4 import BeautifulSoup
