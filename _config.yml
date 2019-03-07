@@ -4,7 +4,8 @@ bio:                'Made With 💗'
 description:        "尼古拉斯工作室"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+#logo:               'assets/img/logo.png'
+logo:               'assets/img/NicolasStudio.png'
 #background:         'assets/img/placeholder-big.jpg'
 #background:         'assets/img/Confetti-Doodles.svg'
 background:         'https://www.bing.com/az/hprichbg/rb/BrittlebushBloom_ZH-CN9198170508_1920x1080.jpg'
