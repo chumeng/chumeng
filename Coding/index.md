@@ -1,6 +1,6 @@
 ---
 layout: coding
-title: 💻Coding
+title: coding
 excerpt: "A List of Projects"
 comments: false
 ---
