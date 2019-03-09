@@ -1,17 +1,29 @@
 ---
 layout: page
-title: 关于此工作室
-tags: [about,Nicolas Studio,摄影,编程]
-date: 2019-03-09
+title: About the Theme
+tags: [about, Jekyll, theme, moon]
+date: 2016-03-21
 comments: false
 ---
     
-<center><a href="https://nicolas.studio"><b>Nicolas Studio</b></a> ~ not only a studio</center>
+<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
 ## Preview
 
 {% capture images %}
-    ./images/beacon.jpg
+    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
     https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
