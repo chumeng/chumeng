@@ -8,18 +8,20 @@ comments: false
     
 <center><a href="https://nicolas.studio"><b>Nicolas Studio</b></a> ~ not only a studio</center>
 
-## Preview
+### To be continued...
 
 {% capture images %}
-    ./images/beacon.jpg
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    ../images/beacon.jpg
+    ../images/beacon.jpg
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images=images caption="The Harbor" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+love life
+Love photograpy
+<!-- See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
 ## Getting Started
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[Install Moon](https://github.com/TaylanTatli/Moon){: .btn} -->
