@@ -16,5 +16,5 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="The Harbor" cols=2 %}
 
->love life{: .btn}
->Love photograpy{: .btn}
+love life{: .btn}
+Love photograpy{: .btn}
